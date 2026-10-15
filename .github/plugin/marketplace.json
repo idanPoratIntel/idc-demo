@@ -1,0 +1,23 @@
+{
+  "name": "test-marketplace-demo",
+  "metadata": {
+    "description": "Demo Copilot agent plugins marketplace",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Idan Mata"
+  },
+  "plugins": [
+    {
+      "name": "demo",
+      "source": "./plugins/demo",
+      "description": "Demo plugin with a skill that says hi.",
+      "version": "1.0.0",
+      "keywords": ["demo", "hello"],
+      "license": "MIT",
+      "skills": [
+        "./skills/say-hi"
+      ]
+    }
+  ]
+}
